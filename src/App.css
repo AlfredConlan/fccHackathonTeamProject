@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -28,5 +28,36 @@
   }
   to {
     transform: rotate(360deg);
+  }
+} */
+
+.container {
+  width: 85vw;
+  margin: auto;
+}
+
+/*
+HOME COMPONENT
+*/
+header .main-content {
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+header .main-content img {
+  width: 100%;
+}
+header .main-content button {
+  color: #fff;
+  border: 0;
+  padding: 14px 25px;
+  background: #3b77db;
+  border-radius: 5px;
+}
+@media (min-width: 800px) {
+  header .main-content img {
+    max-width: 500px;
   }
 }
