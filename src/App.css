@@ -61,3 +61,25 @@ header .main-content button {
     max-width: 500px;
   }
 }
+
+/*
+INFO COMPONENT
+*/
+#info-component {
+  height: 100vh;
+  display: flex;
+  background: rgb(220, 220, 220);
+  flex-direction: column;
+}
+/* .image-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+.image-wrapper figure {
+  border: solid 1px red;
+}
+#info-component .info {
+  margin-top: auto;
+  background: #fff;
+}
