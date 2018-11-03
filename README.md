@@ -1,5 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+To begin, clone the repo:
+
+```git clone https://github.com/AlfredConlan/fccHackathonTeamProject.git yourdirectoryname```
+
+Then use `cd` to change to your new directory
+
+Then ```npm start```
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
