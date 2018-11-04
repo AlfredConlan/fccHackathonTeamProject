@@ -6,8 +6,8 @@ const Home = () => (
     <div className="container">
       <div className="main-content">
         <div>
-          <img src={uploadImage} alt="upload image" />
-          <p>Upload an image to detect any disease</p>
+          <img src={uploadImage} alt="upload" />
+          <p>Upload an image to detect a disease</p>
           <button>Upload Image</button>
         </div>
       </div>
