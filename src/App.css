@@ -19,6 +19,7 @@ header .main-content img {
 header .main-content button {
   color: #fff;
   border: 0;
+  cursor: pointer;
   padding: 14px 25px;
   background: #3b77db;
   border-radius: 5px;
