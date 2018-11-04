@@ -14,7 +14,7 @@ const Home = () => (
           <FileUploader
             hidden
             accept="image/*"
-            storageRef={firebase.storage().ref('images')}
+            storageRef={firebase.storage().ref('plant-diseases')}
             onUploadStart={this.handleUploadStart}
             onUploadError={this.handleUploadError}
             onUploadSuccess={this.handleUploadSuccess}
