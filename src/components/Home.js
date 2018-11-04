@@ -41,7 +41,8 @@ export default class Home extends Component {
             <div>
               <img src={uploadImage} alt="upload" />
               <p>Upload an image to detect a disease</p>
-              <button onClick={() => console.log("button was pressed")}>Upload Image</button>              
+              <button>
+                Upload Image              
               <FileUploader
                 hidden
                 accept="image/*"
@@ -51,6 +52,7 @@ export default class Home extends Component {
                 onUploadSuccess={this.handleUploadSuccess}
                 onProgress={this.handleProgress}
               />
+              </button>
             </div>
           </div>
         </div>
